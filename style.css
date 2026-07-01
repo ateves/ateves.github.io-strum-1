@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #e60c0c;
+  background-image: url('https://ateves.github.io/strum/unknown.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.dchover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  &__btn {
+    font-family: helvetica;
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-size: 50px;
+    cursor: pointer;
+    
+    span {
+      display: inline-block; 
+      white-space: pre;
+      overflow: hidden;
+    }
+  }
+}
