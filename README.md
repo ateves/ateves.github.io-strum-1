@@ -40,4 +40,3 @@ listing website of credly, netacademy, and coursera accolades
        </div>
   </body>
 </html>
-
